@@ -6,8 +6,6 @@ Steps to execute docker- (We are using ubuntu flavor)<br>
 Step 1: update terminal<br>
 
         SUDO apt update -y<br>
-
-
         Install Docker<br>
         SUDO apt install docker.io -y<br>
         <br>
@@ -19,11 +17,14 @@ Step 1: update terminal<br>
         SUDO usermod -aG docker ubuntu
         <br>
 Step 2: Now, login with DOCKER HUB credentials<br> 
-         Command - docker login<br> 
+         docker login<br> 
        Give docker hub username and password<br> 
         <br>
         Now, build our image<br>
-        docker build
+        docker build -t docker-image-name . <br>
+        Here docker-image-name will be our docker image<br>
+        . specifies the path of our image ie current path<br>
+        
 Step 3: 
 Step 4: 
 Step 5: 
