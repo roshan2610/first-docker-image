@@ -41,5 +41,4 @@ Step 5: Run the image<br>
 
 Congratulations!!! You can see your application is running now!
 
-Step 1: 
-Step 1: 
+
