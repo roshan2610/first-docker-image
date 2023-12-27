@@ -4,25 +4,23 @@ Demo docker repo for practice
 Steps to execute docker- (We are using ubuntu flavor)<br>
 <br>
 Step 1: update terminal<br>
-''''
-'''
-        SUDO apt update -y<br>
-'''
-''''
 
-        <br>Install Docker
-        <br>SUDO apt install docker.io -y
+        SUDO apt update -y<br>
+
+
+        Install Docker<br>
+        SUDO apt install docker.io -y<br>
         <br>
-        To check the status of docker
-        <br> SUDO systemctl status docker
-        <br> make sure that status is active if not - <br>
+        To check the status of docker<br>
+         SUDO systemctl status docker<br>
+        make sure that status is active if not - <br>
         SUDO systemctl restart docker <br>
         Now rather than using SUDO we will add our user(ie ubuntu) to the docker group<br>
         SUDO usermod -aG docker ubuntu
         <br>
-Step 2: Now, login with DOCKER HUB credentials
-        <br> Command - docker login
-        <br> Give docker hub username and password
+Step 2: Now, login with DOCKER HUB credentials<br> 
+         Command - docker login<br> 
+       Give docker hub username and password<br> 
         <br>
         Now, build our image<br>
         docker build
