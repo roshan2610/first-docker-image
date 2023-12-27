@@ -1,6 +1,13 @@
 # first-docker-image
 Demo docker repo for practice
-<br><br>
+<br>
+
+Basic steps to required for docker -  <br>
+Base Image - for that we use Ubuntu (AWS EC2)<br>
+Working directory - will create this through Dockerfile<br>
+Install packages - Using Dockerfile
+
+<br>
 Steps to execute docker- (We are using ubuntu flavor)<br>
 <br>
 Step 1: update terminal<br>
